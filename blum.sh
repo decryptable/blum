@@ -32,7 +32,8 @@ app() {
     is_git_installed
     
     # check if file "tomarket.js" exists
-    if [ -f blum.js ]; then
+    if [ -d "blum-tool" ]; then
+        cd blum-tool
         echo "Checking avaiable update..."
         git pull
 
