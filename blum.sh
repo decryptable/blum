@@ -57,7 +57,8 @@ app() {
 
         clear
         
-        app
+        echo "Starting..."
+        node $(pwd)/blum.js
     fi
 }
 
