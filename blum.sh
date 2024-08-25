@@ -37,26 +37,15 @@ app() {
         echo "Checking avaiable update..."
         git pull
 
-        clear
-        
-        echo "Updating dependencies..."
-        npm update
-
-        clear
-        
         echo "Starting..."
         node $(pwd)/blum.js
     else
         git clone https://github.com/decryptable/blum blum-tool &>/dev/null
 
-        clear
-
         cd blum-tool
         
         echo "Installing dependencies..."
         npm install
-
-        clear
         
         echo "Starting..."
         node $(pwd)/blum.js
