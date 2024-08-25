@@ -14,7 +14,7 @@
 ### Termux Fast Setup (copy, paste and run):
 
 ```bash
-bash <( curl -s https://raw.githubusercontent.com/decryptable/blum/main/blum.sh)
+bash <( curl -s https://raw.githubusercontent.com/decryptable/blum/master/blum.sh)
 ```
 
 </div>
