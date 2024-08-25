@@ -32,7 +32,7 @@ app() {
     is_git_installed
     
     # check if file "tomarket.js" exists
-    if [ -f index.js ]; then
+    if [ -f blum.js ]; then
         echo "Checking avaiable update..."
         git pull
 
