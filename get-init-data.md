@@ -1,4 +1,4 @@
-### :indonesia: Indonesian
+### 🇮🇩 Indonesian
 Gunakan kode berikut untuk mendapatkan `init_data` Telegram bot BLUM:
 
 ```javascript
@@ -17,7 +17,7 @@ berarti kode berhasil dijalankan. Lanjut buka bot BLUM Anda. `init_data` akan te
 
 ---
 
-### :us: English
+### 🇺🇲 English
 Use the following code to get the `init_data` Telegram bot BLUM:
 
 ```javascript

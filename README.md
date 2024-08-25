@@ -24,7 +24,7 @@ bash <( curl -s https://raw.githubusercontent.com/decryptable/blum/main/blum.sh)
 
 </div>
 
-# :indonesia: Indonesian
+# 🇮🇩 Indonesian
 
 > Tool untuk mendapatkan poin maksimal dari bot [@BlumCryptoBot](https://t.me/BlumCryptoBot) untuk setiap game-nya.
 
@@ -93,7 +93,7 @@ bash <( curl -s https://raw.githubusercontent.com/decryptable/blum/main/blum.sh)
 <br/>
 <br/>
 
-# :us: English
+# 🇺🇲 English
 
 > Tool to get maximum points from bot [@BlumCryptoBot](https://t.me/BlumCryptoBot) for each game.
 
