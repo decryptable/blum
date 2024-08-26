@@ -8,6 +8,8 @@ const output = await Bun.build({
   sourcemap: "none",
 });
 
+console.log(output);
+
 if (output.success) {
   console.log("Build successful!");
 } else {

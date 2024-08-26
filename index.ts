@@ -145,14 +145,17 @@ const main = async () => {
 
         await claimGamePoint(user.token, gameId.gameId, targetPoints);
 
+        const newToken = await userLogin(init_data);
         const currentBalance = await getBalance(user.token);
+
 
         user = {
           username: user.username,
           balance: parseInt(currentBalance.availableBalance),
           playPasses: currentBalance.playPasses,
-          token: user.token,
+          token: newToken.token.access,
         };
+
         showAccountInfo(spinner, user);
 
         spinner.succeed(
