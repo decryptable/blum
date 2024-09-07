@@ -38,7 +38,7 @@ export interface ID {
 const userLogin = async (initData: string): Promise<ResponseLogin> => {
   try {
     const response = await fetch(
-      "https://gateway.blum.codes/v1/auth/provider/PROVIDER_TELEGRAM_MINI_APP",
+      "https://user-domain.blum.codes/api/v1/auth/provider/PROVIDER_TELEGRAM_MINI_APP",
       {
         body: JSON.stringify(<RequestLogin>{
           query: initData,

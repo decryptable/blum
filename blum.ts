@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chalk from "chalk";
 import clear from "console-clear";
 import ora, { type Ora } from "ora";

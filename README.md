@@ -11,10 +11,10 @@
 <img src="https://github.com/user-attachments/assets/382b3377-e51a-4a97-9f92-5f21252ef682" alt="donate" width="120">
 </a>
 
-### Termux Fast Setup (copy, paste and run):
+### Fast Setup (copy, paste and run. Supported all platforms):
 
 ```bash
-bash <( curl -s https://raw.githubusercontent.com/decryptable/blum/master/blum.sh)
+npx github:decryptable/blum
 ```
 
 </div>
