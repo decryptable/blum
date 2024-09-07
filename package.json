@@ -1,6 +1,10 @@
 {
   "name": "blum",
   "module": "blum",
+  "author": {
+    "name": "decryptable"
+  },
+  "version": "2.1.0",
   "bin": {
     "blum": "blum.js"
   },

@@ -20,6 +20,7 @@ const getBalance = async (authToken: string): Promise<BalanceResponse> => {
       {
         headers: {
           authorization: `Bearer ${authToken}`,
+          "Content-Type": "application/json"
         },
         method: "GET",
       }

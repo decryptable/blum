@@ -37,12 +37,16 @@ export interface ID {
  */
 const userLogin = async (initData: string): Promise<ResponseLogin> => {
   try {
+    
     const response = await fetch(
       "https://user-domain.blum.codes/api/v1/auth/provider/PROVIDER_TELEGRAM_MINI_APP",
       {
         body: JSON.stringify(<RequestLogin>{
           query: initData,
         }),
+        headers: {
+          "Content-Type": "application/json"
+        },
         method: "POST",
       }
     );

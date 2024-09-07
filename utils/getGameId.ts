@@ -28,6 +28,7 @@ const getGameId = async (authToken: string) => {
       {
         headers: {
           authorization: `Bearer ${authToken}`,
+            "Content-Type": "application/json"
         },
         method: "POST",
       }
