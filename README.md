@@ -1,4 +1,8 @@
 <div align="center">
+
+
+> The BLUM developers have updated their security by using additional encryption on the payload data sent to the server for data validation (probably in their WebAssembly file), which makes it very difficult to manipulate API requests. However, it's not impossible. I just don't have time for things like this.
+
 <h1>BLUM TOOL</h1>
 
 <a href="#-indonesian">🇮🇩 Indonesian</a> | <a href="#-english">🇺🇸 English</a>
